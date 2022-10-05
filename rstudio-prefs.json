@@ -1,0 +1,48 @@
+{
+    "panes": {
+        "quadrants": [
+            "Source",
+            "TabSet1",
+            "Console",
+            "TabSet2"
+        ],
+        "tabSet1": [
+            "History",
+            "Connections",
+            "Build",
+            "Presentation"
+        ],
+        "tabSet2": [
+            "Environment",
+            "Files",
+            "Plots",
+            "Packages",
+            "Help",
+            "VCS",
+            "Viewer",
+            "Presentations"
+        ],
+        "console_left_on_top": false,
+        "console_right_on_top": true
+    },
+    "insert_matching": false,
+    "show_diagnostics_other": true,
+    "scroll_past_end_of_document": true,
+    "save_files_before_build": true,
+    "editor_theme": "Pastel On Dark",
+    "default_project_location": "~/workspace",
+    "source_with_echo": true,
+    "document_author": "RStudio User",
+    "show_hidden_files": true,
+    "wrap_tab_navigation": false,
+    "save_workspace": "never",
+    "always_save_history": false,
+    "reuse_sessions_for_project_links": true,
+    "initial_working_directory": "~/workspace",
+    "default_latex_program": "XeLaTeX",
+    "posix_terminal_shell": "bash",
+    "rmd_chunk_output_inline": false,
+    "jobs_tab_visibility": "shown",
+    "insert_native_pipe_operator": true,
+    "rainbow_parentheses": true
+}

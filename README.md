@@ -67,6 +67,9 @@ In the browser to open RStudio
 
 ![](img/rstd.png)
 
+The Dockerfile has been written to allow extentions to the system dependencies and also additional R Packages.
+
+
 ## Some helpful commands
 
 ### List Images  

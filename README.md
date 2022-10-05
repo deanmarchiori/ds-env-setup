@@ -17,7 +17,7 @@ The image builds on the `rocker/verse` image from [Rocker Project](https://rocke
 
 ### Step 1: Install Docker    
 
-You will need Docker installed on your host machine. Go to (https://docs.docker.com/get-docker/)
+You will need Docker installed on your host machine. Go to https://docs.docker.com/get-docker/
 for more details.  
 
 ### Step 2: Clone this repo   
@@ -27,8 +27,7 @@ or download as a .zip file and unpack locally.
 
 Then make this directory your working directory.    
 
-Also included are a template `rstudio-prefs.json` config file to import your
-custom settings and layouts from RStudio. This can be replaced with your own 
+The `rstudio-prefs.json` config file will load your preferences and layouts in RStudio. This can be replaced with your own 
 version, which is usually found on your host machine at `~/.config/rstudio`.    
 
 
@@ -117,7 +116,7 @@ docker run myapp
 ## Acknowldegements  
 
 Thanks to [Rami Krispin](https://github.com/RamiKrispin) and 
-their tutorial on {Deploying Flex Actions](https://github.com/RamiKrispin/deploy-flex-actions) where much of the inspiration comes from.  
+their tutorial on [Deploying Flex Actions](https://github.com/RamiKrispin/deploy-flex-actions) where much of the inspiration amnd code comes from.  
 
 Thanks to the team at [The Rocker Project](https://rocker-project.org/)
 

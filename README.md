@@ -118,8 +118,7 @@ docker run myapp
 
 ## Acknowldegements  
 
-Thanks to [Rami Krispin](https://github.com/RamiKrispin) and 
-their tutorial on [Deploying Flex Actions](https://github.com/RamiKrispin/deploy-flex-actions) where much of the inspiration amnd code comes from.  
+Thanks to [Rami Krispin](https://github.com/RamiKrispin) for the tutorial on [Deploying Flex Actions](https://github.com/RamiKrispin/deploy-flex-actions) where much of the inspiration amnd code comes from.  
 
 Thanks to the team at [The Rocker Project](https://rocker-project.org/)
 

@@ -43,10 +43,11 @@ $ bash build_docker.sh
 
 Once the build has finished run the following command.
 
-Replace `$LOCAL_WORKING_DIRECTORY` with a file path to a local directory. This will be mounted as a volume to use within the container.    
+Replace `$LOCAL_WORKING_DIRECTORY` with a file path to a local directory. This will be mounted as a volume to use within the container.  
+Replace `$PASSWORD` with a password of your choosing
 
 ```console
-docker run --rm -ti -d -p 127.0.0.1:8787:8787 --name dsci-rstudio -v $LOCAL_WORKING_DIRECTORY:/home/rstudio/workspace dsci-rstudio:4.2
+docker run --rm -ti -d -p 8787:8787 --name dsci-rstudio -e PASSWORD=$PASSWORD -v $LOCAL_WORKING_DIRECTORY:/home/rstudio/workspace dsci-rstudio:4.2
 ```
 
 ### Step 5: Use   
@@ -62,8 +63,14 @@ or
 ```
 127.0.0.1:8787
 ```
+
+or
+
+```
+YOUR.PUBLIC.IP:8787
+```
  
-In the browser to open RStudio
+In the browser to open RStudio. 
 
 ![](img/rstd.png)
 

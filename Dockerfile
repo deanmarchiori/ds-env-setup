@@ -1,10 +1,6 @@
 # Pulling Rocker image with RStudio and R version 4.2
 FROM rocker/verse:4.2
 
-# Disabling the authentication step
-ENV USER="rstudio"
-CMD ["/usr/lib/rstudio-server/bin/rserver", "--server-daemonize", "0", "--auth-none", "1"]
-
 # copy rstudio preferences
 COPY /rstudio-prefs.json /home/rstudio/.config/rstudio/rstudio-prefs.json
 RUN sudo chown -R rstudio /home/rstudio/.config/rstudio/rstudio-prefs.json
